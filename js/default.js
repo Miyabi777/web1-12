@@ -22,5 +22,5 @@ for(var i = 1; i < 10; i++){
   var li = document.createElement('li');
   var price = Math.floor(Math.random() * 1000);
   li.textContent = price + '円(税込み' + include_tax(price) + '円)';
-  document.getElementById('list').appendChild(li);
+  document.getElementById('price').appendChild(li);
 }
