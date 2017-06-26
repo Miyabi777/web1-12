@@ -39,6 +39,6 @@ for(key in player){
   document.getElementById('object').appendChild(li);
 }
 
-docment.getElementById('form').onsubmit = function(){
+document.getElementById('form').onsubmit = function(){
   window.alert('押されました！');
 };
