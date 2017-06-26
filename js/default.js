@@ -47,12 +47,12 @@ document.getElementById('form').onsubmit = function(){
 for(var i = 1; i < 100; i++){
   var li = document.createElement('li');
   if(i % 3 ==0 && i % 5 == 0)
-    li.textContent='Fizz,Bizz';
+    li.textContent='Fizz,Buzz';
   else if(i % 3 == 0)
     li.textContent='Fizz';
   else if(i % 5==0)
-    li.textContent='Bizz';
+    li.textContent='Buzz';
   else
     li.textContent = i ;
-  document.getElementById('FizzBizz').appendChild(li);
+  document.getElementById('FizzBuzz').appendChild(li);
 }
