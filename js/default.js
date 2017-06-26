@@ -47,11 +47,11 @@ document.getElementById('form').onsubmit = function(){
 for(var i = 1; i < 100; i++){
   var li = document.createElement('li');
   if(i % 3 ==0 && i % 5 == 0)
-    li.textContent='Fizz,Buzz';
+    li.textContent ='Fizz,Buzz';
   else if(i % 3 == 0)
-    li.textContent='Fizz';
+    li.textContent ='Fizz';
   else if(i % 5==0)
-    li.textContent='Buzz';
+    li.textContent ='Buzz';
   else
     li.textContent = i ;
   document.getElementById('FizzBuzz').appendChild(li);
