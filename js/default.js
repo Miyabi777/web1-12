@@ -45,6 +45,7 @@ document.getElementById('form').onsubmit = function(){
 };
 
 for (var i = 1; i <= 100; i++) {
+  var li = document.createElement('li');
   if (i % 3 == 0 && i % 5 == 0)
     console.log("Fizz,Buzz");
   else if (i % 3 == 0)
@@ -53,4 +54,5 @@ for (var i = 1; i <= 100; i++) {
     console.log("Buzz");
   else  // iが3の倍数でも5の倍数でもない
     console.log(i);
+  document.getElementById('FizzBizz').appendChild(li);
 }
